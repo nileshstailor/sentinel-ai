@@ -4,12 +4,12 @@ Only check an item when verified. Last audit: **2026-10-09**.
 
 ## Repository & secrets
 
-- [ ] GitHub repository accessible to judges
+- [x] GitHub repository accessible to judges (public: https://github.com/nileshstailor/sentinel-ai)
 - [x] Secrets scrubbed from iOS `Info.plist` / `project.yml` (placeholders)
 - [x] `.gitignore` excludes `.env`, local config, recordings
 - [x] `.env.example` present (no live secrets)
-- [ ] Git repository initialized and pushed (awaiting your approval to publish)
-- [ ] Confirmed no live tokens in public tree after push
+- [x] Git repository initialized and pushed
+- [x] Confirmed no live tokens in public tree after push (`.env` absent; APIToken placeholder)
 
 ## Documentation
 

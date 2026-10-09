@@ -6,7 +6,7 @@
 | **Tagline** | Your Money Has a Bodyguard. |
 | **Official event** | [Tokens& Cyberdefense Hackathon](https://tokensand.com/cyberhack) |
 | **Submission deadline** | October 9, 2026, 4:30 PM Pacific |
-| **Repository URL** | _PENDING — not published yet; awaiting approval after secret audit_ |
+| **Repository URL** | https://github.com/nileshstailor/sentinel-ai |
 | **Demo video URL** | _PENDING — record per `DEMO_SCRIPT.md`_ |
 | **Architecture** | [`docs/architecture.md`](../docs/architecture.md) |
 | **Project description** | [`PROJECT_DESCRIPTION.md`](PROJECT_DESCRIPTION.md) |
