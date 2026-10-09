@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A4A49D88B104D9B1E2972C /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E33E8FFE38D7C2DF632EFB /* LocationService.swift */; };
+		239FC643B4F058A498D0700B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E408142D41D37A04160BB5AA /* HomeView.swift */; };
+		2CF912C38640112D50EE6093 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD19E033039F01296D6D585 /* TransactionsView.swift */; };
+		4AA9426C6A40E597427A2308 /* LocationVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCCED26A577E31277C0318 /* LocationVaultView.swift */; };
+		673D3EE66D7DCF66DBDFA75D /* BiometricService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9552D5EE62A885A3A6266B4 /* BiometricService.swift */; };
+		6D38E58827874BFEC47D9682 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D2A569A5C13E7BB3009CD3 /* APIModels.swift */; };
+		7A8BC98ADB9033D51EDC4685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C63A5733BEFA178AAD7E9A /* Assets.xcassets */; };
+		83B4F7DEA6B1670978FA3C4A /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8789277974C14BF2ADFB2B0E /* RootTabView.swift */; };
+		92AA812F063B18B30F6EDAB4 /* DemoLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB637FBEB205A567D419253 /* DemoLabView.swift */; };
+		BD74622BECCDD91472D3C209 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313D28896835A9F874D3691 /* AppModel.swift */; };
+		D171078D0ABB58B0C8376FB8 /* IncidentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A61C1AA475F8708E5EADAE /* IncidentsView.swift */; };
+		E860F21AFEE9AD2232EEC74E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897E365971D683022E2301EB /* APIClient.swift */; };
+		F406EF6BE28AC0D4D2075552 /* SentinelAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E21A43984868DE36E3B22 /* SentinelAIApp.swift */; };
+		A1B2C3D4E5F60718293A4B5C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5A60718293B4C5D /* NotificationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14E33E8FFE38D7C2DF632EFB /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		1FD19E033039F01296D6D585 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		2313D28896835A9F874D3691 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		575E21A43984868DE36E3B22 /* SentinelAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentinelAIApp.swift; sourceTree = "<group>"; };
+		70C27E24012AEA6EDF10F245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		76FCCED26A577E31277C0318 /* LocationVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVaultView.swift; sourceTree = "<group>"; };
+		8789277974C14BF2ADFB2B0E /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		897E365971D683022E2301EB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9796746F89B07B771749C8EE /* SentinelAI.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SentinelAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C63A5733BEFA178AAD7E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB637FBEB205A567D419253 /* DemoLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLabView.swift; sourceTree = "<group>"; };
+		D3A61C1AA475F8708E5EADAE /* IncidentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentsView.swift; sourceTree = "<group>"; };
+		D9552D5EE62A885A3A6266B4 /* BiometricService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricService.swift; sourceTree = "<group>"; };
+		D9D2A569A5C13E7BB3009CD3 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		E408142D41D37A04160BB5AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5A60718293B4C5D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2621D9975334F500825E9A64 = {
+			isa = PBXGroup;
+			children = (
+				C93FDF87413DE6546483824E /* SentinelAI */,
+				C46626E0390862539ADC4D25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33978EDEBB828E187F77F3F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFB637FBEB205A567D419253 /* DemoLabView.swift */,
+				E408142D41D37A04160BB5AA /* HomeView.swift */,
+				D3A61C1AA475F8708E5EADAE /* IncidentsView.swift */,
+				76FCCED26A577E31277C0318 /* LocationVaultView.swift */,
+				8789277974C14BF2ADFB2B0E /* RootTabView.swift */,
+				1FD19E033039F01296D6D585 /* TransactionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		978AB8D4A95D6ACC8B852316 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				897E365971D683022E2301EB /* APIClient.swift */,
+				2313D28896835A9F874D3691 /* AppModel.swift */,
+				D9552D5EE62A885A3A6266B4 /* BiometricService.swift */,
+				14E33E8FFE38D7C2DF632EFB /* LocationService.swift */,
+				B1C2D3E4F5A60718293B4C5D /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A96EA593E7DD9C6D5E2B27CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9D2A569A5C13E7BB3009CD3 /* APIModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C46626E0390862539ADC4D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9796746F89B07B771749C8EE /* SentinelAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93FDF87413DE6546483824E /* SentinelAI */ = {
+			isa = PBXGroup;
+			children = (
+				A5C63A5733BEFA178AAD7E9A /* Assets.xcassets */,
+				70C27E24012AEA6EDF10F245 /* Info.plist */,
+				575E21A43984868DE36E3B22 /* SentinelAIApp.swift */,
+				A96EA593E7DD9C6D5E2B27CB /* Models */,
+				978AB8D4A95D6ACC8B852316 /* Services */,
+				33978EDEBB828E187F77F3F6 /* Views */,
+			);
+			path = SentinelAI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182EE4D842736CE5F5CEA6A3 /* SentinelAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEF721B6E3556A95B759FD4 /* Build configuration list for PBXNativeTarget "SentinelAI" */;
+			buildPhases = (
+				223A2638C5468A54D2399A00 /* Sources */,
+				15938066609AF006C0F19038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentinelAI;
+			productName = SentinelAI;
+			productReference = 9796746F89B07B771749C8EE /* SentinelAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046896F35BB1609ECA45DC8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					182EE4D842736CE5F5CEA6A3 = {
+						DevelopmentTeam = FNQB5S99AA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65B6A9262EBA6E4BB90540D6 /* Build configuration list for PBXProject "SentinelAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2621D9975334F500825E9A64;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182EE4D842736CE5F5CEA6A3 /* SentinelAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15938066609AF006C0F19038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8BC98ADB9033D51EDC4685 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223A2638C5468A54D2399A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E860F21AFEE9AD2232EEC74E /* APIClient.swift in Sources */,
+				6D38E58827874BFEC47D9682 /* APIModels.swift in Sources */,
+				BD74622BECCDD91472D3C209 /* AppModel.swift in Sources */,
+				673D3EE66D7DCF66DBDFA75D /* BiometricService.swift in Sources */,
+				92AA812F063B18B30F6EDAB4 /* DemoLabView.swift in Sources */,
+				239FC643B4F058A498D0700B /* HomeView.swift in Sources */,
+				D171078D0ABB58B0C8376FB8 /* IncidentsView.swift in Sources */,
+				07A4A49D88B104D9B1E2972C /* LocationService.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5C /* NotificationService.swift in Sources */,
+				4AA9426C6A40E597427A2308 /* LocationVaultView.swift in Sources */,
+				83B4F7DEA6B1670978FA3C4A /* RootTabView.swift in Sources */,
+				F406EF6BE28AC0D4D2075552 /* SentinelAIApp.swift in Sources */,
+				2CF912C38640112D50EE6093 /* TransactionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66130DC3203BA92503081E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNQB5S99AA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SentinelAI/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentinelai.hackathon;
+				PRODUCT_MODULE_NAME = SentinelAI;
+				PRODUCT_NAME = SentinelAI;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+			};
+			name = Debug;
+		};
+		75B1D9742EBAC009D561A249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNQB5S99AA;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentinelai.hackathon;
+				PRODUCT_NAME = SentinelAI;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		915AC51AAC41CC8EC0A00903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNQB5S99AA;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentinelai.hackathon;
+				PRODUCT_NAME = SentinelAI;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E8C1AC2335B3CEB90F7EB309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNQB5S99AA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SentinelAI/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentinelai.hackathon;
+				PRODUCT_MODULE_NAME = SentinelAI;
+				PRODUCT_NAME = SentinelAI;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EEF721B6E3556A95B759FD4 /* Build configuration list for PBXNativeTarget "SentinelAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66130DC3203BA92503081E92 /* Debug */,
+				E8C1AC2335B3CEB90F7EB309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		65B6A9262EBA6E4BB90540D6 /* Build configuration list for PBXProject "SentinelAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915AC51AAC41CC8EC0A00903 /* Debug */,
+				75B1D9742EBAC009D561A249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046896F35BB1609ECA45DC8F /* Project object */;
+}

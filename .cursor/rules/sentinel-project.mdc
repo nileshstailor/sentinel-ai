@@ -1,0 +1,11 @@
+---
+description: Sentinel AI AWS-only hosting, reversible suspension, sensitive-data protection, and hackathon implementation
+alwaysApply: true
+---
+Read `SENTINEL_CURSOR_MASTER_PROMPT.md` before changes and follow it as source of truth.
+
+**AWS-ONLY:** Host the functional backend and live demo on AWS, not localhost or a local fallback. Local tests and builds are fine. Ask approval before billable provisioning.
+
+**Non-negotiable scheduled reversible pause:** Sunday Oct 11, 2026 11:00 PM America/Los_Angeles (2026-10-12T06:00:00Z). Disable project invocations/ingress/compute as supported using an independently functioning EventBridge Scheduler controller. Preserve ALL AWS resources, stacks, databases, logs, GPS history, secrets, and user data. No automatic teardown/destroy/deletion. Supply suspend-now, resume, extend-expiry and status scripts. Read back and test the schedule and pause state. AWS Budgets is NOT a hard cap; report ongoing storage/watchdog/third-party costs and obtain approval. `docs/aws-suspension-verification.md` and `docs/aws-suspension-and-costs.md` are required.
+
+Protect real GPS history; label all synthetic finance data; only approved mock-bank mitigations via deterministic policy; make genuine sponsor calls when configured. Keep IMPLEMENTATION_STATUS.md accurate.

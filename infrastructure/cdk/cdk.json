@@ -1,0 +1,12 @@
+{
+  "app": "python3 app.py",
+  "watch": {
+    "include": ["**"],
+    "exclude": ["README.md", "cdk*.json", "requirements*.txt", "**/__pycache__", "**/.venv"]
+  },
+  "context": {
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
+    "suspendAtUtc": "2026-10-12T06:00:00Z",
+    "projectTag": "SentinelAI-Hackathon"
+  }
+}

@@ -1,0 +1,57 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.p12
+*.mobileprovision
+*.cer
+*.certSigningRequest
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+coverage/
+htmlcov/
+.coverage
+
+# Build / package artifacts
+dist/
+build/
+.cdk.staging/
+cdk.out/
+node_modules/
+.aws-sam/
+
+# iOS / Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+ios/SentinelAI/Config.local.plist
+ios/SentinelAI/SentinelAI/Config.local.plist
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# OS / editor
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.swp
+
+# Local recordings / personal media (do not commit GPS dumps or demos with PII)
+submission/recordings/
+*.mov
+*.mp4
+gps_export*.json
+personal_*.json

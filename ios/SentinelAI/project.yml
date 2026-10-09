@@ -1,0 +1,59 @@
+name: SentinelAI
+options:
+  bundleIdPrefix: com.sentinelai
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    PRODUCT_NAME: SentinelAI
+    PRODUCT_BUNDLE_IDENTIFIER: com.sentinelai.hackathon
+    DEVELOPMENT_TEAM: FNQB5S99AA
+    CODE_SIGN_STYLE: Automatic
+    CURRENT_PROJECT_VERSION: "1"
+    MARKETING_VERSION: "0.1.0"
+    ALWAYS_SEARCH_USER_PATHS: false
+targets:
+  SentinelAI:
+    type: application
+    platform: iOS
+    sources:
+      - path: SentinelAI
+        excludes:
+          - "**/*.md"
+    settings:
+      base:
+        PRODUCT_NAME: SentinelAI
+        PRODUCT_MODULE_NAME: SentinelAI
+        INFOPLIST_FILE: SentinelAI/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.sentinelai.hackathon
+        DEVELOPMENT_TEAM: FNQB5S99AA
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: false
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: false
+        ALWAYS_SEARCH_USER_PATHS: false
+    info:
+      path: SentinelAI/Info.plist
+      properties:
+        CFBundleDisplayName: Sentinel AI
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSLocationWhenInUseUsageDescription: Sentinel AI uses your location to verify purchases against where your body actually is. Location stays under your control.
+        NSLocationAlwaysAndWhenInUseUsageDescription: Optional background location improves fraud checks. You can pause anytime.
+        NSFaceIDUsageDescription: Face ID confirms it’s you before freezing, unfreezing, or escalating a fraud alert.
+        UIBackgroundModes:
+          - location
+        APIBaseURL: https://8m6o4go9oc.execute-api.us-east-1.amazonaws.com/prod
+        # Never commit a real token. Paste via Demo Lab → Save & Sync, or local untracked config.
+        APIToken: "REPLACE_VIA_DEMO_LAB_OR_LOCAL_CONFIG"
+schemes:
+  SentinelAI:
+    build:
+      targets:
+        SentinelAI: all
+    run:
+      config: Debug
