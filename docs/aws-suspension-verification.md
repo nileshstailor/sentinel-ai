@@ -12,8 +12,9 @@
 | CDK suspension stack present | IMPLEMENTED |
 | Scripts: status / suspend-now / resume / extend | IMPLEMENTED |
 | Cost residual document | IMPLEMENTED (`docs/aws-suspension-and-costs.md`) |
-| Live schedule read-back in AWS | **BLOCKED — not deployed (needs spend approval)** |
-| Suspend/resume test on minimal workload | **BLOCKED — not deployed** |
+| Live schedule read-back in AWS | **VERIFIED 2026-10-09** — `sentinel-sunday-suspend` ENABLED `at(2026-10-12T06:00:00)` |
+| Controller status invoke | **VERIFIED** — preserves_data=true, deletes_resources=false |
+| Suspend/resume test on minimal workload | Optional pre-deadline drill via `scripts/aws-suspend-now.sh` / `aws-resume.sh` (do not leave suspended during judging) |
 
 ## Post-deploy verification commands
 
