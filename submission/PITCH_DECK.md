@@ -17,8 +17,8 @@ Or from the repo root in a browser:
 | Path | Contents |
 |------|----------|
 | `pitch-assets/slides/*.jpg` | Frames extracted from the Oct 9 device recording |
-| `pitch-assets/demo.mp4` | ~87s demo (browser-friendly) |
-| `pitch-assets/demo.mov` | Original QuickTime capture |
+| `pitch-assets/demo.mp4` | ~87s demo (in git / GitHub) |
+| `pitch-assets/demo.mov` | Original QuickTime (local only; not pushed) |
 
 Source recording: device screen recording of the live Sentinel AI app against AWS.
 
