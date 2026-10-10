@@ -51,7 +51,7 @@ ios/SentinelAI/SentinelAI/Config.local.plist
 
 # Local recordings / personal media (do not commit GPS dumps or demos with PII)
 submission/recordings/
-*.mov
-*.mp4
 gps_export*.json
 personal_*.json
+# Keep curated pitch assets; ignore ffmpeg probe clutter
+submission/pitch-assets/frames/

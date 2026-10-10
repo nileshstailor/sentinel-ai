@@ -7,7 +7,7 @@
 | **Official event** | [Tokens& Cyberdefense Hackathon](https://tokensand.com/cyberhack) |
 | **Submission deadline** | October 9, 2026, 4:30 PM Pacific |
 | **Repository URL** | https://github.com/nileshstailor/sentinel-ai |
-| **Demo video URL** | _PENDING — record per `DEMO_SCRIPT.md`_ |
+| **Demo video URL** | Local: `submission/pitch-assets/demo.mp4` · Deck: `submission/PITCH_DECK.html` · _Add public share link when uploaded_ |
 | **Architecture** | [`docs/architecture.md`](../docs/architecture.md) |
 | **Project description** | [`PROJECT_DESCRIPTION.md`](PROJECT_DESCRIPTION.md) |
 | **Judge Q&A** | [`JUDGE_QA.md`](JUDGE_QA.md) |
